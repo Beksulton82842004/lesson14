@@ -1,0 +1,25 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+}
+button{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    /* border-radius: 40%; */
+    position: absolute;
+    top: 300px;
+    color: aliceblue;
+    transition: all 1s ;
+}
+button:active{
+    background-color: green;
+}
+button:hover{
+    border-radius: 40%;
+}
+span{
+    font-size: 30px;
+}
